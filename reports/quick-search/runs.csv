@@ -1,0 +1,7 @@
+run_id,model,validation_accuracy,validation_macro_f1,duration_seconds,artifact,architecture,learning_rate,batch_size,optimizer
+de75b766f74e4286ab8e44620239cb66,logistic-regression,0.7158333333333333,0.5011338603708256,0.40283689997158945,reports\quick-search\artifacts\logistic-regression.joblib,,,,
+0c714ab2db0c4f3888db97e6dba63c19,mlp-2-small-adamw,0.7158333333333333,0.4106656433118089,0.6530788999516517,reports\quick-search\artifacts\mlp-2-small-adamw.pt,small,0.003,256.0,adamw
+03cd2c111c554c96a94e649a737e909b,mlp-1-small-adamw,0.7141666666666666,0.35114299300583546,0.9310516000259668,reports\quick-search\artifacts\mlp-1-small-adamw.pt,small,0.001,128.0,adamw
+11bc87dd17134d809ef646e5a995f2f2,mlp-3-medium-adamw,0.7058333333333333,0.3133225775595818,0.828150600194931,reports\quick-search\artifacts\mlp-3-medium-adamw.pt,medium,0.001,256.0,adamw
+d6150725b0a244fcbd5f9c428b4bff05,dummy-prior,0.4875,0.0936374549819928,0.0008183999452739954,reports\quick-search\artifacts\dummy-prior.joblib,,,,
+ebb83eecd43840779627c77481ad49f3,mlp-4-medium-sgd,0.4875,0.0936374549819928,0.6746088000945747,reports\quick-search\artifacts\mlp-4-medium-sgd.pt,medium,0.01,256.0,sgd

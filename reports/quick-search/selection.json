@@ -1,0 +1,31 @@
+{
+  "status": "completed",
+  "selection_metric": "validation_macro_f1",
+  "best_run": {
+    "run_id": "de75b766f74e4286ab8e44620239cb66",
+    "model": "logistic-regression",
+    "validation_accuracy": 0.7158333333333333,
+    "validation_macro_f1": 0.5011338603708256,
+    "duration_seconds": 0.40283689997158945,
+    "artifact": "reports\\quick-search\\artifacts\\logistic-regression.joblib"
+  },
+  "test_metrics_selected_model_only": {
+    "accuracy": 0.7108333333333333,
+    "macro_f1": 0.5097170246830334
+  },
+  "mlflow_database": "mlflow.db",
+  "retrieved_artifact_path": "C:\\Users\\sebas\\OneDrive\\Desktop\\Proyectos de git\\ml-experiment-tracking-lab\\reports\\quick-search\\model",
+  "retrieval_verified": true,
+  "environment": {
+    "seed": 42,
+    "dataset": "UCI Covertype (id=31)",
+    "data_source": "local-cache",
+    "training_rows": 7200,
+    "validation_rows": 2400,
+    "test_rows": 2400,
+    "python": "3.12.14",
+    "platform": "Windows-11-10.0.22631-SP0",
+    "torch": "2.9.1+cpu",
+    "git_revision": "uncommitted"
+  }
+}

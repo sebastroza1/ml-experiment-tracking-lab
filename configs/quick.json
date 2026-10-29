@@ -1,0 +1,12 @@
+{
+  "sample_size": 12000,
+  "epochs": 5,
+  "seed": 42,
+  "experiment_name": "covertype-quick-search",
+  "search": [
+    {"architecture": "small", "learning_rate": 0.001, "batch_size": 128, "optimizer": "adamw"},
+    {"architecture": "small", "learning_rate": 0.003, "batch_size": 256, "optimizer": "adamw"},
+    {"architecture": "medium", "learning_rate": 0.001, "batch_size": 256, "optimizer": "adamw"},
+    {"architecture": "medium", "learning_rate": 0.01, "batch_size": 256, "optimizer": "sgd"}
+  ]
+}
